@@ -1,0 +1,12 @@
+6.Life Cycle
+6.1 Start()
+- ถูกเรียกใช้ก่อน Update() เสมอทำการ run
+6.2 Update()
+-ทำงานเฟรมละครั้ง
+6.3 FixedUpdate()
+-สามารถเรียกหลายครั้งต่อเฟรมได้ถ้าเฟรมเรสต่ำ แต่ถ้าเฟรมเรสสูกก็จะใช้ไม่ได้ เวลาคำนวณไม่จำเป็นต้องคูณ Time.deltaTime
+6.4 OnCollision()
+-ใช้เมื่อวัตถุ(Rigidbody)โดนกัน
+6.5 จงเรียงลําดับก่อนหลังของ Life Cycle ทีกําหนดให้
+Awake() OnTrigger() Update() FixedUpdate() Start() OnCollision()
+-Awake()->Start()->FixedUpdate()->OnTrigger()->OnCollision()->Update() 
