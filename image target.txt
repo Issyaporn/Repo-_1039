@@ -1,0 +1,7 @@
+A Oxygen
+B Astronaut
+C Fissure
+Electron1 Drone
+Electron2 E1
+Electron3 E3
+Electron4 E4
